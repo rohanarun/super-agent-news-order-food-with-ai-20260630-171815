@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Order food with AI — Super personal AI agent</title>
+  <meta name="description" content="Order meals and groceries with an AI assistant that actually uses delivery apps for you. Super is a personal AI agent with real computer use and a reusable computer-use cache." />
+  <link rel="canonical" href="https://app.getsupers.com/use-cases/order-food-with-ai/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Order food with AI — Super" />
+  <meta property="og:description" content="A practical guide to using a personal AI agent to order food and groceries across delivery apps without babysitting them." />
+  <meta property="og:url" content="https://app.getsupers.com/use-cases/order-food-with-ai/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800,900&display=swap" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- GSAP (optional animations) -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+  <div class="ambient-grid"></div>
+  <div class="paper-noise"></div>
+
+  <div class="page">
+    <nav class="nav">
+      <div class="brand">
+        <img src="https://storage.googleapis.com/cheatlayer/landing/icon-transparent-512.png" alt="Super" />
+      </div>
+      <div class="nav-links">
+        <a href="https://app.getsupers.com/use-cases/book-rides-with-ai/">Book rides</a>
+        <a href="https://app.getsupers.com/use-cases/text-message-ai-assistant/">Text assistant</a>
+        <a href="https://app.getsupers.com/use-cases/computer-use-cache/">Computer-use cache</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Try Super</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="shell hero-inner">
+        <h1>Order food with AI — a personal agent that actually uses delivery apps</h1>
+        <p class="hero-sub">Super is built for people who want an AI assistant to order meals and groceries across apps, reuse past orders, and handle the boring steps — without constant supervision.</p>
+        <div class="hero-actions">
+          <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Start ordering with AI</a>
+          <a class="btn btn-white" href="#workflow">See how it works</a>
+        </div>
+        <div class="media-frame">
+          <video src="https://storage.googleapis.com/cheatlayer/landing/hero-0607-2-3.mp4" autoplay muted loop playsinline></video>
+        </div>
+      </div>
+    </header>
+
+    <!-- Direct answer -->
+    <section class="chapter">
+      <div class="shell">
+        <h2>Can an AI really order food for you?</h2>
+        <p class="chapter-intro">Yes — but only if it can operate real websites and remember what it did last time. Many assistants can suggest restaurants or draft an order. Super goes further by acting as a personal AI agent that can open delivery apps in a browser, follow multi‑step checkout flows, and reuse a computer-use cache so repeat orders get faster and cheaper over time.</p>
+        <p>News coverage shows delivery platforms actively experimenting with AI prompts and photo‑based ordering, such as DoorDash’s recent AI ordering features reported by <a href="https://www.cnbc.com/" target="_blank" rel="noopener">CNBC</a> and <a href="https://techcrunch.com/" target="_blank" rel="noopener">TechCrunch</a>. At the same time, broader analysis from <a href="https://www.fortune.com/" target="_blank" rel="noopener">Fortune</a> and <a href="https://www.bain.com/" target="_blank" rel="noopener">Bain & Company</a> highlights how friction and pricing complexity still make online grocery and food ordering tedious for humans. That gap is exactly where a durable computer‑using agent helps.</p>
+      </div>
+    </section>
+
+    <!-- Workflow -->
+    <section id="workflow" class="chapter">
+      <div class="shell">
+        <h2>How Super orders food with AI</h2>
+        <div class="bento">
+          <div class="bento-item">
+            <h3>1. You say what you want</h3>
+            <p>Tell Super something like: “Order my usual Thai curry for delivery tonight” or “Restock groceries for the week.” Natural language is enough.</p>
+          </div>
+          <div class="bento-item">
+            <h3>2. Super uses the apps</h3>
+            <p>Super opens food‑delivery or grocery sites in a controlled browser and navigates them step by step — search, customization, address selection, and checkout review.</p>
+          </div>
+          <div class="bento-item">
+            <h3>3. Computer-use cache kicks in</h3>
+            <p>Because Super reuses a computer-use cache, it remembers where buttons, menus, and past choices were on previous runs. Repeat orders don’t start from scratch.</p>
+          </div>
+          <div class="bento-item">
+            <h3>4. You confirm before paying</h3>
+            <p>Super presents a summary for review. You stay in control and confirm before any purchase or payment step.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why not chatbots -->
+    <section class="chapter">
+      <div class="shell">
+        <h2>Why general assistants fall short</h2>
+        <div class="compare-grid">
+          <div class="compare-card">
+            <h3>Siri</h3>
+            <p>Great for voice commands and reminders, but typically limited to predefined integrations and hand‑offs rather than full browser‑level ordering.</p>
+          </div>
+          <div class="compare-card">
+            <h3>ChatGPT</h3>
+            <p>Excellent for planning and recommendations. Some shopping experiences exist, but it’s still primarily conversational rather than a persistent computer‑using agent.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Gemini</h3>
+            <p>Google’s Gemini is pushing multi‑step task handling, as covered by <a href="https://www.cbsnews.com/" target="_blank" rel="noopener">CBS News</a>, but most users still experience it as an assistant layered on top of apps.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Grok</h3>
+            <p>An opinionated assistant with real‑time context, not primarily focused on repeat operational workflows like food ordering.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Folk & Orchids</h3>
+            <p>Emerging and niche tools in the broader agent landscape. Useful context, but not widely adopted as durable computer‑use agents for everyday ordering.</p>
+          </div>
+          <div class="compare-card highlight">
+            <h3>Super</h3>
+            <p>Designed for real computer use and repetition. The computer-use cache means your “usual order” actually becomes faster to run each time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples -->
+    <section class="chapter">
+      <div class="shell">
+        <h2>Real examples</h2>
+        <div class="bento">
+          <div class="bento-item">
+            <h3>Weeknight dinner</h3>
+            <p>“Order my last pizza order again, but make it vegetarian.” Super finds the prior order and adjusts it.</p>
+          </div>
+          <div class="bento-item">
+            <h3>Grocery restock</h3>
+            <p>“Reorder groceries from last Sunday.” Coverage from <a href="https://www.bloomberg.com/" target="_blank" rel="noopener">Bloomberg</a> and <a href="https://www.fortune.com/" target="_blank" rel="noopener">Fortune</a> shows growing interest in personal AI agents for exactly these repetitive chores.</p>
+          </div>
+          <div class="bento-item">
+            <h3>Hands‑free coordination</h3>
+            <p>While platforms like Alexa+ now support food delivery via integrations (<a href="https://www.aboutamazon.com/" target="_blank" rel="noopener">About Amazon</a>), Super focuses on cross‑site flexibility instead of fixed partnerships.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="chapter">
+      <div class="shell">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <h3>Does Super place orders automatically?</h3>
+          <p>Super assists with ordering workflows and requires user confirmation before purchases or payments.</p>
+          <h3>Which apps does it work with?</h3>
+          <p>Super works through the web interfaces of common food‑delivery and grocery services, rather than relying on special integrations.</p>
+          <h3>Why does the computer-use cache matter?</h3>
+          <p>The computer-use cache lets Super reuse past browser interactions, so repeat food orders don’t cost the same effort every time.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="chapter">
+      <div class="shell">
+        <h2>More ways to use Super</h2>
+        <ul class="cluster-links">
+          <li><a href="https://app.getsupers.com/use-cases/book-rides-with-ai/">Book rides with AI</a></li>
+          <li><a href="https://app.getsupers.com/use-cases/text-message-ai-assistant/">Text message AI assistant</a></li>
+          <li><a href="https://app.getsupers.com/use-cases/meta-display-ai-assistant/">Meta Display AI assistant</a></li>
+          <li><a href="https://app.getsupers.com/use-cases/ai-agent-build-websites/">AI agent to build websites</a></li>
+          <li><a href="https://app.getsupers.com/use-cases/computer-use-cache/">Computer-use cache</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="shell">
+        <h2>Ready to order food with a real AI agent?</h2>
+        <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Get started with Super</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Use cases",
+      "item": "https://app.getsupers.com/use-cases/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Order food with AI",
+      "item": "https://app.getsupers.com/use-cases/order-food-with-ai/"
+    }]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Does Super place orders automatically?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Super assists with ordering workflows and requires user confirmation before purchases or payments."}
+    },{
+      "@type": "Question",
+      "name": "Which apps does it work with?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Super works through web interfaces of delivery and grocery services rather than fixed integrations."}
+    },{
+      "@type": "Question",
+      "name": "Why does the computer-use cache matter?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It allows repeat ordering workflows to reuse prior browser steps, saving time and cost."}
+    }]
+  }
+  </script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
